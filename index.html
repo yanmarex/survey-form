@@ -14,7 +14,7 @@
             <fieldset>
                 <label for="name">Name <input type="text" id="name" placeholder="Enter your name" required/></label>
                 <label for="email">Email <input type="email" id="email" placeholder="Enter your email" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required/></label>
-                <label for="number">Age <input type="number" id="number" placeholder="Enter your age" min="10" max="105"/></label>
+                <label for="number">Age <input type="number" id="number" placeholder="Enter your age" pattern="^[0-9]+$" min="10" max="105"/></label>
             </fieldset>
         </form>
     </main>
