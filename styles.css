@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid red;
     max-width: 500px;
     margin: 8% auto;
     background-color: #352d40;
@@ -26,11 +25,6 @@
     padding: 0.25rem;
     border: none;
   }
-  /*
-  input {
-    width: 100%;
-  }
-  */
   select {
     width: 100%;
     padding: 10px;
@@ -44,7 +38,6 @@
     font-size: 16px;
   }
   .option {
-    background-color: red;
     display: flex;
     flex-direction: column;
   }
@@ -65,4 +58,7 @@
   .submit-btn:hover {
     background-color: azure;
     color: black;
+  }
+  .textarea {
+    font-size: 16px;
   }
