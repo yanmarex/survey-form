@@ -21,13 +21,10 @@
   .form {
     padding: 2.5rem;
   }
-  .fieldset-style {
-    background-color: blue;
-  }
   fieldset {
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
-    background-color: gray;
+    border: none;
   }
   /*
   input {
@@ -36,10 +33,15 @@
   */
   select {
     width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
   }
-  .fieldset-style input {
-    background-color: #7777b7;
+  .fieldset-style {
     width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
   }
   .option {
     background-color: red;
@@ -58,6 +60,7 @@
     font-size: 20px;
     cursor: pointer;
     transition: all 0.3s ease-in;
+    border-radius: 5px;
   }
   .submit-btn:hover {
     background-color: azure;
