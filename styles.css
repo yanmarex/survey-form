@@ -29,6 +29,23 @@
     padding: 0.25rem;
     background-color: gray;
   }
+  /*
   input {
     width: 100%;
+  }
+  */
+  select {
+    width: 100%;
+  }
+  .fieldset-style input {
+    background-color: #7777b7;
+    width: 100%;
+  }
+  .option {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  }
+  .option input {
+    background-color: rgb(65, 172, 140);
   }
