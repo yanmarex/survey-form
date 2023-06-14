@@ -5,4 +5,30 @@
   }
   body {
     font-family: sans-serif;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 36%, rgba(0,212,255,1) 97%);
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid red;
+    max-width: 500px;
+    margin: 8% auto;
+    background-color: #352d40;
+    color: white;
+  }
+  .form {
+    padding: 2.5rem;
+  }
+  .fieldset-style {
+    background-color: blue;
+  }
+  fieldset {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+    background-color: gray;
+  }
+  input {
+    width: 100%;
   }
